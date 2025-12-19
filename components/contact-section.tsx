@@ -32,11 +32,11 @@ export function ContactSection() {
               <div className="flex items-start gap-4">
                 <MapPin className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                 <div>
-                  <h3 className="font-semibold mb-1">罗兰岗主堂</h3>
+                  <h3 className="font-semibold mb-1">教会地址</h3>
                   <p className="text-sm text-muted-foreground">
-                    19360 Colima Rd
+                    60-20 Woodside Ave, Suite 205
                     <br />
-                    Rowland Heights, CA 91748
+                    Woodside, NY 11377
                   </p>
                 </div>
               </div>
@@ -44,11 +44,11 @@ export function ContactSection() {
               <div className="flex items-start gap-4">
                 <MapPin className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                 <div>
-                  <h3 className="font-semibold mb-1">DEC Irvine 分堂</h3>
+                  <h3 className="font-semibold mb-1">教会地址</h3>
                   <p className="text-sm text-muted-foreground">
-                    15375 Barranca Pkwy Unit G107
+                    60-20 Woodside Ave, Suite 205
                     <br />
-                    Irvine, CA 92618
+                    Woodside, NY 11377
                   </p>
                 </div>
               </div>
@@ -57,7 +57,7 @@ export function ContactSection() {
                 <Phone className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                 <div>
                   <h3 className="font-semibold mb-1">电话</h3>
-                  <p className="text-sm text-muted-foreground">626-269-8850</p>
+                  <p className="text-sm text-muted-foreground">3232406644</p>
                 </div>
               </div>
 
@@ -65,7 +65,7 @@ export function ContactSection() {
                 <Mail className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                 <div>
                   <h3 className="font-semibold mb-1">电子邮件</h3>
-                  <p className="text-sm text-muted-foreground">office@dec4u.org</p>
+                  <p className="text-sm text-muted-foreground">DynamicEChurch@gmail.com</p>
                 </div>
               </div>
 
