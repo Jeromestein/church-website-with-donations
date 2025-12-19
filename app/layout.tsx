@@ -11,6 +11,9 @@ export const metadata: Metadata = {
   title: "Dynamic Evangelism Church | DEC",
   description: "Welcome to Dynamic Evangelism Church - A Loving Family Growing In Christ",
   generator: "v0.app",
+  other: {
+    "apple-mobile-web-app-title": "DYN EVG CH",
+  },
   icons: {
     icon: [
       {
