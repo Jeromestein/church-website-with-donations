@@ -6,7 +6,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 export function LiveSection() {
   return (
     <section id="live" className="py-20">
-      <div className="container">
+      <div className="container mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-balance text-primary">主日崇拜直播</h2>
         </div>

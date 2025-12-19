@@ -32,7 +32,7 @@ const ministries = [
 export function MinistriesSection() {
   return (
     <section id="ministries" className="py-20 bg-muted/30">
-      <div className="container">
+      <div className="container mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-balance">事工与团契</h2>
         </div>

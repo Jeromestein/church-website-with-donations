@@ -17,7 +17,7 @@ export function ContactSection() {
 
   return (
     <section id="contact" className="py-20">
-      <div className="container">
+      <div className="container mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-balance text-primary">联系我们</h2>
         </div>

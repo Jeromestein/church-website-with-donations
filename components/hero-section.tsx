@@ -13,7 +13,7 @@ export function HeroSection() {
         <div className="absolute inset-0 bg-gradient-to-b from-blue-400/60 to-blue-500/40" />
       </div>
 
-      <div className="relative z-10 container text-center text-white">
+      <div className="relative z-10 container mx-auto text-center text-white">
         <h1 className="text-5xl md:text-7xl font-bold mb-6 text-balance">
           充满爱的大家庭
           <br />在 DEC 成长！

@@ -22,7 +22,7 @@ export function DonationSection() {
 
   return (
     <section id="donate" className="py-20 bg-primary/5">
-      <div className="container">
+      <div className="container mx-auto">
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-12">
             <Heart className="h-16 w-16 text-accent mx-auto mb-4" />

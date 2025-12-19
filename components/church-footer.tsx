@@ -4,7 +4,7 @@ import { Facebook, Instagram, Youtube, Mail } from "lucide-react"
 export function ChurchFooter() {
   return (
     <footer className="bg-foreground text-background py-12">
-      <div className="container">
+      <div className="container mx-auto">
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
             <h3 className="text-xl font-bold mb-4 text-accent">
