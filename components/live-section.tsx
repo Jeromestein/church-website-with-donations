@@ -24,7 +24,7 @@ export function LiveSection() {
                 <CardDescription>
                   周六晚堂 7:00 PM | 周日早堂 9:00 AM & 11:30 AM
                   <br />
-                  19360 Colima Rd, Rowland Heights, CA 91748
+                  60-20 Woodside Ave, Suite 205, Woodside, NY 11377
                 </CardDescription>
               </CardHeader>
               <CardContent>
@@ -51,7 +51,7 @@ export function LiveSection() {
                 <CardDescription>
                   午堂 1:30 PM
                   <br />
-                  15375 Barranca Pkwy Unit G107, Irvine, CA 92618
+                  60-20 Woodside Ave, Suite 205, Woodside, NY 11377
                 </CardDescription>
               </CardHeader>
               <CardContent>
