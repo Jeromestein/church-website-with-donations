@@ -2,6 +2,7 @@
 
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
+import { ChurchLogo } from "@/components/church-logo"
 import { Menu, X } from "lucide-react"
 import { useState } from "react"
 
@@ -12,13 +13,7 @@ export function ChurchHeader() {
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto flex h-16 items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
-          <div className="text-2xl font-bold text-accent">
-            Dynamic
-            <br />
-            Evangelism
-            <br />
-            Church
-          </div>
+          <ChurchLogo />
         </Link>
 
         {/* Desktop Navigation */}

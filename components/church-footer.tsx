@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { Facebook, Instagram, Youtube, Mail } from "lucide-react"
+import { ChurchLogo } from "@/components/church-logo"
 
 export function ChurchFooter() {
   return (
@@ -7,29 +8,25 @@ export function ChurchFooter() {
       <div className="container mx-auto">
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
-            <h3 className="text-xl font-bold mb-4 text-accent">
-              Dynamic
-              <br />
-              Evangelism
-              <br />
-              Church
-            </h3>
+            <Link href="/" className="inline-flex items-center">
+              <ChurchLogo textClassName="text-xl" />
+            </Link>
             <p className="text-sm opacity-80">国际动力福音教会</p>
           </div>
 
           <div>
             <h4 className="font-semibold mb-4">联系我们</h4>
             <div className="space-y-2 text-sm opacity-80">
-              <p>626-269-8850</p>
-              <p>office@dec4u.org</p>
+              <p>3232406644</p>
+              <p>DynamicEChurch@gmail.com</p>
             </div>
           </div>
 
           <div>
             <h4 className="font-semibold mb-4">地点</h4>
             <div className="space-y-2 text-sm opacity-80">
-              <p>19360 Colima Rd</p>
-              <p>Rowland Heights, CA 91748</p>
+              <p>60-20 Woodside Ave, Suite 205</p>
+              <p>Woodside, NY 11377</p>
             </div>
           </div>
 
@@ -70,7 +67,7 @@ export function ChurchFooter() {
               <Youtube className="h-5 w-5" />
               <span className="sr-only">YouTube</span>
             </Link>
-            <Link href="mailto:office@dec4u.org" className="hover:text-accent transition-colors">
+            <Link href="mailto:DynamicEChurch@gmail.com" className="hover:text-accent transition-colors">
               <Mail className="h-5 w-5" />
               <span className="sr-only">Email</span>
             </Link>
