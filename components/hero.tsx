@@ -1,17 +1,19 @@
+import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { MapPin, Heart } from "lucide-react"
 
 export function Hero() {
   return (
-    <section id="home" className="relative min-h-[600px] md:min-h-[700px] flex items-center">
-      <div
-        className="absolute inset-0 z-0"
-        style={{
-          backgroundImage: `url('/asian-congregation-worshiping-in-modern-church-wit.jpg')`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
+    <section id="home" className="relative min-h-screen flex items-center">
+      <div className="absolute inset-0 z-0">
+        <Image
+          src="/asian-congregation-worshiping-in-modern-church-wit.jpg"
+          alt="Congregation worshiping in a modern church"
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover"
+        />
         <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/30" />
       </div>
 
