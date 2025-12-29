@@ -31,7 +31,7 @@ export function LiveSection() {
                 <div className="aspect-video bg-black rounded-lg overflow-hidden">
                   <iframe
                     className="w-full h-full"
-                    src="https://www.youtube.com/embed/live_stream?channel=YOUR_CHANNEL_ID"
+                    src="https://www.youtube.com/embed/A7lmqYbnzHk?start=230"
                     title="Chinese Service Live Stream"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
@@ -58,7 +58,7 @@ export function LiveSection() {
                 <div className="aspect-video bg-black rounded-lg overflow-hidden">
                   <iframe
                     className="w-full h-full"
-                    src="https://www.youtube.com/embed/live_stream?channel=YOUR_CHANNEL_ID"
+                    src="https://www.youtube.com/embed/A7lmqYbnzHk?start=230"
                     title="English Service Live Stream"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen

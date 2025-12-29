@@ -14,7 +14,7 @@ export default function Home() {
         <HeroSection />
         <MinistriesSection />
         <LiveSection />
-        <DonationSection />
+        {/* <DonationSection /> */}
         <ContactSection />
       </main>
       <ChurchFooter />
