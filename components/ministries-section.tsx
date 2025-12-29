@@ -1,3 +1,4 @@
+import Image from "next/image"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
@@ -41,10 +42,12 @@ export function MinistriesSection() {
           {ministries.map((ministry) => (
             <Card key={ministry.title} className="overflow-hidden hover:shadow-lg transition-shadow">
               <div className="aspect-video relative overflow-hidden">
-                <img
+                <Image
                   src={ministry.image || "/placeholder.svg"}
                   alt={ministry.title}
-                  className="object-cover w-full h-full"
+                  fill
+                  sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
+                  className="object-cover"
                 />
               </div>
               <CardHeader>

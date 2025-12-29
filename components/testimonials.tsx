@@ -1,3 +1,4 @@
+import Image from "next/image"
 import { Card } from "@/components/ui/card"
 import { Quote } from "lucide-react"
 
@@ -16,12 +17,15 @@ export function Testimonials() {
                 刚来纽约时，我举目无亲。是教会的兄弟姐妹在地铁站递给我的一份热饭，让我感受到了久违的温暖。现在，我也穿上了义工马甲，去帮助更多像我一样的人。
               </p>
               <div className="flex items-center gap-4">
-                <div
-                  className="w-16 h-16 rounded-full bg-cover bg-center"
-                  style={{
-                    backgroundImage: `url('/asian-young-man-smiling-portrait-volunteer.jpg')`,
-                  }}
-                />
+                <div className="relative w-16 h-16 overflow-hidden rounded-full">
+                  <Image
+                    src="/asian-young-man-smiling-portrait-volunteer.jpg"
+                    alt="Volunteer portrait"
+                    fill
+                    sizes="64px"
+                    className="object-cover"
+                  />
+                </div>
                 <div>
                   <p className="font-semibold text-foreground">Jin 弟兄</p>
                   <p className="text-sm text-muted-foreground">社区义工 | Community Volunteer</p>

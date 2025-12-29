@@ -1,3 +1,4 @@
+import Image from "next/image"
 import { Card } from "@/components/ui/card"
 import { MapPin, Clock, Phone } from "lucide-react"
 import { Button } from "@/components/ui/button"
@@ -34,12 +35,15 @@ export function Locations() {
           <div className="grid md:grid-cols-2 gap-8">
             {locations.map((location, index) => (
               <Card key={index} className="overflow-hidden hover:shadow-xl transition-shadow">
-                <div
-                  className="h-48 bg-cover bg-center"
-                  style={{
-                    backgroundImage: `url('/--location-mapquery-.jpg')`,
-                  }}
-                />
+                <div className="relative h-48">
+                  <Image
+                    src="/--location-mapquery-.jpg"
+                    alt={`${location.name} map preview`}
+                    fill
+                    sizes="(min-width: 768px) 50vw, 100vw"
+                    className="object-cover"
+                  />
+                </div>
                 <div className="p-8">
                   <h3 className="text-2xl font-bold mb-2 text-foreground">{location.name}</h3>
                   <p className="text-sm text-muted-foreground mb-6">{location.nameEn}</p>

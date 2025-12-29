@@ -1,15 +1,19 @@
+import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
 export function HeroSection() {
   return (
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
-      <div
-        className="absolute inset-0 bg-cover bg-center"
-        style={{
-          backgroundImage: `url('/asian-congregation-worshiping-in-modern-church-wit.jpg')`,
-        }}
-      >
+      <div className="absolute inset-0">
+        <Image
+          src="/asian-congregation-worshiping-in-modern-church-wit.jpg"
+          alt="Congregation worshiping in a modern church"
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover"
+        />
         <div className="absolute inset-0 bg-gradient-to-b from-blue-400/60 to-blue-500/40" />
       </div>
 
