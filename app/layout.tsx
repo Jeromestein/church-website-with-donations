@@ -1,15 +1,21 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Geist, Geist_Mono } from "next/font/google"
+import { Geist, Geist_Mono, Noto_Serif_SC } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
 
 const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
+const _notoSerif = Noto_Serif_SC({
+  subsets: ["latin"],
+  weight: ["400", "600", "700"],
+})
+
 
 export const metadata: Metadata = {
-  title: "Dynamic Evangelism Church | DEC",
-  description: "Welcome to Dynamic Evangelism Church - A Loving Family Growing In Christ",
+  title: "Dynamic Evangelism Church | 在他乡，亦有故乡",
+  description:
+    "Dynamic Evangelism Church (纽约) 与 Dynamic Gospel Church (加州) - 服务在美华人与东亚社区的温暖属灵家园",
   generator: "v0.app",
   other: {
     "apple-mobile-web-app-title": "DYN EVG CH",
