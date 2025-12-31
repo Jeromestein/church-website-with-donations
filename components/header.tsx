@@ -4,6 +4,7 @@ import { useState } from "react"
 import { useTranslations, useLocale } from "next-intl"
 import { usePathname, useRouter } from "next/navigation"
 import { Globe, Menu, X } from "lucide-react"
+import Image from "next/image"
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -55,7 +56,14 @@ export function Header() {
       <div className="container mx-auto px-4">
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
-            <div className="text-xl font-semibold text-primary">{t("brand")}</div>
+            <Image
+              src="/web-app-manifest-512x512.png"
+              alt={t("brand")}
+              width={64}
+              height={64}
+              className="h-16 w-16 rounded-full object-cover"
+            />
+            <div className="hidden text-xl font-semibold text-primary md:block">{t("brand")}</div>
           </div>
 
           <div className="flex items-center gap-4">

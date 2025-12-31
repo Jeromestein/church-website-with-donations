@@ -1,3 +1,4 @@
+import Image from "next/image"
 import { MapPin, Phone } from "lucide-react"
 import { getTranslations } from "next-intl/server"
 
@@ -10,7 +11,16 @@ export async function Footer() {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">{t("brand")}</h3>
+            <div className="flex items-center gap-3 mb-4">
+              <Image
+                src="/web-app-manifest-512x512.png"
+                alt={t("brand")}
+                width={40}
+                height={40}
+                className="h-10 w-10 rounded-full object-cover"
+              />
+              <h3 className="text-xl font-bold">{t("brand")}</h3>
+            </div>
             <p className="text-sm text-background/80 leading-relaxed">{t("description")}</p>
           </div>
 
