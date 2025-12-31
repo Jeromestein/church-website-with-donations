@@ -3,7 +3,15 @@
 import { useState } from "react"
 import { useTranslations, useLocale } from "next-intl"
 import { usePathname, useRouter } from "next/navigation"
-import { Menu, X } from "lucide-react"
+import { Globe, Menu, X } from "lucide-react"
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuRadioGroup,
+  DropdownMenuRadioItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu"
+import { Button } from "@/components/ui/button"
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -65,24 +73,23 @@ export function Header() {
             </nav>
 
             {/* Language Switcher */}
-            <div className="flex items-center rounded-full border border-border bg-background/80 p-1 text-xs">
-              {localeOptions.map((option) => (
-                <button
-                  key={option.code}
-                  type="button"
-                  onClick={() => handleLocaleChange(option.code)}
-                  aria-label={`${t("language")} ${option.label}`}
-                  aria-pressed={locale === option.code}
-                  className={`rounded-full px-3 py-1 transition-colors ${
-                    locale === option.code
-                      ? "bg-primary text-primary-foreground"
-                      : "text-foreground/70 hover:text-foreground"
-                  }`}
-                >
-                  {option.label}
-                </button>
-              ))}
-            </div>
+            <DropdownMenu>
+              <DropdownMenuTrigger asChild>
+                <Button variant="outline" size="sm" className="rounded-full gap-2">
+                  <Globe className="h-4 w-4" />
+                  <span className="text-xs text-muted-foreground">{t(`locale.${locale}`)}</span>
+                </Button>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent align="end">
+                <DropdownMenuRadioGroup value={locale} onValueChange={handleLocaleChange}>
+                  {localeOptions.map((option) => (
+                    <DropdownMenuRadioItem key={option.code} value={option.code}>
+                      {option.label}
+                    </DropdownMenuRadioItem>
+                  ))}
+                </DropdownMenuRadioGroup>
+              </DropdownMenuContent>
+            </DropdownMenu>
 
             {/* Mobile Menu Button */}
             <button className="md:hidden" onClick={() => setIsMenuOpen(!isMenuOpen)} aria-label="Toggle menu">
