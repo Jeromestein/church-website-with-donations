@@ -1,0 +1,145 @@
+{
+  "Metadata": {
+    "title": "Dynamic Evangelism Church | Home Away From Home",
+    "description": "Dynamic Evangelism Church (NY) and Dynamic Gospel Church (CA) - a warm spiritual home for Chinese and East Asian communities in the U.S.",
+    "appleTitle": "DYN EVG CH"
+  },
+  "Nav": {
+    "brand": "Dynamic Evangelism Church",
+    "home": "Home",
+    "livestream": "Livestream",
+    "about": "About",
+    "ministries": "Ministries",
+    "locations": "Locations",
+    "testimonials": "Testimonials"
+  },
+  "Hero": {
+    "title": "Home Away From Home",
+    "subtitle": "Finding Your Spiritual Home Away From Home",
+    "body": "Whether you just arrived or have lived here for years, Dynamic Evangelism Church is your harbor. We walk with you in Queens, New York and Irvine, California.",
+    "ctaPrimary": "Join a Service",
+    "ctaSecondary": "New Immigrant Service Center",
+    "imageAlt": "Congregation worshiping in a modern church"
+  },
+  "Livestream": {
+    "title": "Live Worship Service",
+    "subtitle": "Online Livestream",
+    "description": "Wherever you are, join us online to worship, pray, and learn God's word together.",
+    "time": "Sunday worship: New York 10:00 AM | Irvine 11:00 AM (Pacific)",
+    "videoTitle": "Church Livestream"
+  },
+  "About": {
+    "title": "Not Just a Church, But a Family",
+    "subtitle": "A place to belong, grow, and be cared for",
+    "paragraphs": {
+      "one": "Dynamic Evangelism Church (New York) and Dynamic Gospel Church (California) are devoted to serving Chinese and East Asian communities in the U.S. We understand the bittersweet journey of immigration—from language barriers to cultural shock, from identity anxiety to everyday pressure.",
+      "two": "Here, we share not only the truth of the Gospel, but also the burdens of life. We are a community of passionate immigrants, and our elders and co-workers have walked the same road you are on. We gather to support one another and warm every wandering soul with the love of Christ."
+    },
+    "quote": "Here, we are a group of passionate immigrants, and our elders and co-workers have lived what you are living."
+  },
+  "Ministries": {
+    "title": "Core Ministries",
+    "subtitle": "Our Ministries",
+    "items": {
+      "outreach": {
+        "title": "Community Outreach & Relief",
+        "subtitle": "Community Outreach",
+        "tagline": "Love in Woodside, warmth in every heart",
+        "description": "Since we are in Woodside and Irvine, we are part of the community.",
+        "services": {
+          "street": {
+            "name": "Street Outreach",
+            "detail": "Weekly at Roosevelt Ave subway station and nearby parks, we distribute hot meals, bread, and water."
+          },
+          "winter": {
+            "name": "Winter Coat Drive",
+            "detail": "As winter approaches, we collect and distribute warm coats so no neighbor has to shiver in the cold."
+          }
+        }
+      },
+      "immigrant": {
+        "title": "New Immigrant Settling Support",
+        "subtitle": "New Immigrant Services",
+        "tagline": "From landing to rooting, we walk with you",
+        "description": "Newly arrived? Don't worry. We offer help where we can.",
+        "services": {
+          "lifeGuide": {
+            "name": "Everyday Life Guide",
+            "detail": "Help with housing, school enrollment, driver's license, and other practical needs."
+          },
+          "language": {
+            "name": "Language Exchange Group",
+            "detail": "Build English skills through Bible reading and fellowship."
+          },
+          "support": {
+            "name": "Legal & Emotional Support",
+            "detail": "For brothers and sisters facing legal challenges (such as immigration cases), we provide character references and spiritual care."
+          }
+        }
+      },
+      "growth": {
+        "title": "Spiritual Growth",
+        "subtitle": "Spiritual Growth",
+        "tagline": "A renewed life begins here",
+        "description": "Whether you're a devoted believer or simply exploring faith, you are welcome to discover life's meaning.",
+        "services": {
+          "sunday": {
+            "name": "Sunday Service",
+            "detail": "Weekly worship with praise and message."
+          },
+          "bibleStudy": {
+            "name": "Bible Study & Fellowship",
+            "detail": "Dive into Scripture and build lasting friendships."
+          }
+        }
+      }
+    }
+  },
+  "Locations": {
+    "title": "Meeting Times & Locations",
+    "subtitle": "Visit Us",
+    "cta": "Get Directions",
+    "imageAlt": "{name} map preview",
+    "items": {
+      "ny": {
+        "name": "New York Campus",
+        "nameSecondary": "纽约堂",
+        "time": "Sundays/Mondays at 2:00 PM",
+        "phone": "(917) 200-4938",
+        "contact": "Elder Peiming Tian"
+      },
+      "ca": {
+        "name": "California Campus",
+        "nameSecondary": "加州堂",
+        "time": "West Coast home fellowship and new immigrant welcome",
+        "phone": "Contact the New York campus for details",
+        "contact": ""
+      }
+    }
+  },
+  "Testimonials": {
+    "title": "Testimonials",
+    "subtitle": "Stories of Hope",
+    "quote": "When I first arrived in New York, I had no one. A brother from the church handed me a hot meal at the subway station, and I felt warmth I hadn't known in a long time. Now I wear the volunteer vest too, helping others like me.",
+    "portraitAlt": "Volunteer portrait",
+    "person": "Brother Jin",
+    "role": "Community Volunteer",
+    "stats": {
+      "years": "Years of Service",
+      "families": "Families Served",
+      "sites": "Service Sites"
+    }
+  },
+  "Footer": {
+    "brand": "Dynamic Evangelism Church",
+    "description": "Home away from home. We serve Chinese and East Asian communities in the U.S., warming every wandering soul with the love of Christ.",
+    "ny": {
+      "title": "New York Campus"
+    },
+    "ca": {
+      "title": "California Campus"
+    },
+    "copyright": "© {year} Dynamic Evangelism Church. All rights reserved.",
+    "tagline": "Serving the Community with Love"
+  }
+}

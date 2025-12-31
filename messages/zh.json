@@ -1,0 +1,145 @@
+{
+  "Metadata": {
+    "title": "Dynamic Evangelism Church | 在他乡，亦有故乡",
+    "description": "Dynamic Evangelism Church (纽约) 与 Dynamic Gospel Church (加州) - 服务在美华人与东亚社区的温暖属灵家园",
+    "appleTitle": "DYN EVG CH"
+  },
+  "Nav": {
+    "brand": "Dynamic Evangelism Church",
+    "home": "首页",
+    "livestream": "在线直播",
+    "about": "关于我们",
+    "ministries": "事工服务",
+    "locations": "聚会地点",
+    "testimonials": "见证分享"
+  },
+  "Hero": {
+    "title": "在他乡，亦有故乡",
+    "subtitle": "在异乡寻找属灵的家",
+    "body": "无论您刚踏上这片土地，还是已在此扎根多年，Dynamic Evangelism Church 都是您心灵的港湾。我们在纽约皇后区与加州尔湾，与您风雨同路。",
+    "ctaPrimary": "参加我们的聚会",
+    "ctaSecondary": "新移民服务中心",
+    "imageAlt": "现代教会中敬拜的会众"
+  },
+  "Livestream": {
+    "title": "在线直播敬拜",
+    "subtitle": "Live Worship Service",
+    "description": "无论您身在何处，都可以通过在线直播与我们一同敬拜、祷告、学习神的话语。",
+    "time": "主日崇拜时间：纽约每周日上午10:00 | 尔湾每周日上午11:00 (太平洋时间)",
+    "videoTitle": "教会直播"
+  },
+  "About": {
+    "title": "不只是一间教会，更是一个大家庭",
+    "subtitle": "Not Just a Church, But a Family",
+    "paragraphs": {
+      "one": "Dynamic Evangelism Church (纽约) 与 Dynamic Gospel Church (加州) 致力于服务在美的华人与东亚社区。我们深知移民生活的酸甜苦辣——从语言的隔阂到文化的冲击，从身份的焦虑到生活的压力。",
+      "two": "在这里，我们不仅分享福音的真理，更分享生活的重担。我们由一群热心的移民组成，长老与同工们都曾经历过您正在经历的一切。我们聚在一起，是为了在异国他乡彼此扶持，用基督的爱温暖每一个漂泊的灵魂。"
+    },
+    "quote": "在这里，我们由一群热心的移民组成，长老与同工们都曾经历过您正在经历的一切。"
+  },
+  "Ministries": {
+    "title": "核心事工",
+    "subtitle": "Our Ministries",
+    "items": {
+      "outreach": {
+        "title": "社区关怀与扶贫",
+        "subtitle": "Community Outreach",
+        "tagline": "爱在 Woodside，暖在心间",
+        "description": "既然我们在 Woodside 和 Irvine，我们就是社区的一部分。",
+        "services": {
+          "street": {
+            "name": "街头送暖",
+            "detail": "每周定期在 Roosevelt Ave 地铁站及周边公园，为有需要的人士分发热餐、面包与饮用水。"
+          },
+          "winter": {
+            "name": "冬衣捐赠",
+            "detail": "寒冬将至，我们收集并分发厚冬衣，确保没有一位邻舍需要在寒风中颤抖。"
+          }
+        }
+      },
+      "immigrant": {
+        "title": "新移民安家服务",
+        "subtitle": "New Immigrant Services",
+        "tagline": "从落地到扎根，我们陪您走",
+        "description": "初来乍到？别担心，我们为您提供力所能及的帮助。",
+        "services": {
+          "lifeGuide": {
+            "name": "生活资讯向导",
+            "detail": "协助解决租房、入学、考驾照等生活难题。"
+          },
+          "language": {
+            "name": "语言互助小组",
+            "detail": "通过读经与交流，在信仰环境中提升英语能力。"
+          },
+          "support": {
+            "name": "法律与精神支持",
+            "detail": "为遭遇法律困境（如移民案件）的弟兄姊妹提供品格证明与精神陪伴，做您坚强的后盾。"
+          }
+        }
+      },
+      "growth": {
+        "title": "属灵成长",
+        "subtitle": "Spiritual Growth",
+        "tagline": "生命的更新，从这里开始",
+        "description": "无论您是虔诚的信徒，还是对信仰充满好奇的朋友，我们都欢迎您来探索生命的意义。",
+        "services": {
+          "sunday": {
+            "name": "主日崇拜",
+            "detail": "Sunday Service - 每周日聚会，敬拜赞美与信息分享。"
+          },
+          "bibleStudy": {
+            "name": "查经班与家庭团契",
+            "detail": "Bible Study & Fellowship - 深入学习圣经，建立深厚友谊。"
+          }
+        }
+      }
+    }
+  },
+  "Locations": {
+    "title": "聚会时间与地点",
+    "subtitle": "Visit Us",
+    "cta": "获取路线",
+    "imageAlt": "{name} 地图预览",
+    "items": {
+      "ny": {
+        "name": "纽约堂",
+        "nameSecondary": "New York Campus",
+        "time": "每周日/周一 下午 2:00",
+        "phone": "(917) 200-4938",
+        "contact": "Peiming Tian 长老"
+      },
+      "ca": {
+        "name": "加州堂",
+        "nameSecondary": "California Campus",
+        "time": "西岸家庭团契与新移民接待",
+        "phone": "联系纽约堂获取更多信息",
+        "contact": ""
+      }
+    }
+  },
+  "Testimonials": {
+    "title": "见证分享",
+    "subtitle": "Testimonials",
+    "quote": "刚来纽约时，我举目无亲。是教会的兄弟姐妹在地铁站递给我的一份热饭，让我感受到了久违的温暖。现在，我也穿上了义工马甲，去帮助更多像我一样的人。",
+    "portraitAlt": "义工肖像",
+    "person": "Jin 弟兄",
+    "role": "社区义工 | Community Volunteer",
+    "stats": {
+      "years": "年服务经验",
+      "families": "家庭受益",
+      "sites": "服务据点"
+    }
+  },
+  "Footer": {
+    "brand": "Dynamic Evangelism Church",
+    "description": "在他乡，亦有故乡。我们致力于服务在美的华人与东亚社区，用基督的爱温暖每一个漂泊的灵魂。",
+    "ny": {
+      "title": "纽约堂"
+    },
+    "ca": {
+      "title": "加州堂"
+    },
+    "copyright": "© {year} Dynamic Evangelism Church. All rights reserved.",
+    "tagline": "用爱服务社区 · Serving the Community with Love"
+  }
+}

@@ -1,18 +1,20 @@
 "use client"
 
 import { useState } from "react"
+import { useTranslations } from "next-intl"
 import { Menu, X } from "lucide-react"
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const t = useTranslations("Nav")
 
   const navItems = [
-    { label: "首页", href: "#home", en: "Home" },
-    { label: "在线直播", href: "#livestream", en: "Livestream" },
-    { label: "关于我们", href: "#about", en: "About" },
-    { label: "事工服务", href: "#ministries", en: "Ministries" },
-    { label: "聚会地点", href: "#locations", en: "Locations" },
-    { label: "见证分享", href: "#testimonials", en: "Testimonials" },
+    { key: "home", href: "#home" },
+    { key: "livestream", href: "#livestream" },
+    { key: "about", href: "#about" },
+    { key: "ministries", href: "#ministries" },
+    { key: "locations", href: "#locations" },
+    { key: "testimonials", href: "#testimonials" },
   ]
 
   return (
@@ -20,7 +22,7 @@ export function Header() {
       <div className="container mx-auto px-4">
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
-            <div className="text-xl font-semibold text-primary">Dynamic Evangelism Church</div>
+            <div className="text-xl font-semibold text-primary">{t("brand")}</div>
           </div>
 
           {/* Desktop Navigation */}
@@ -31,7 +33,7 @@ export function Header() {
                 href={item.href}
                 className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors"
               >
-                {item.label}
+                {t(item.key)}
               </a>
             ))}
           </nav>
@@ -52,7 +54,7 @@ export function Header() {
                 className="block text-sm font-medium text-foreground/80 hover:text-foreground transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
-                {item.label}
+                {t(item.key)}
               </a>
             ))}
           </nav>
