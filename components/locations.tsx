@@ -7,6 +7,7 @@ export function Locations() {
   const locations = [
     {
       name: "纽约堂",
+      picUrl: "/church1.jpg",
       nameEn: "New York Campus",
       address: "60-20 Woodside Ave, Suite 205, Woodside, NY 11377",
       time: "每周日/周一 下午 2:00",
@@ -16,6 +17,7 @@ export function Locations() {
     },
     {
       name: "加州堂",
+      picUrl: "/church2.jpg",
       nameEn: "California Campus",
       address: "72 Granite Path, Irvine, CA 92620",
       time: "西岸家庭团契与新移民接待",
@@ -37,7 +39,7 @@ export function Locations() {
               <Card key={index} className="overflow-hidden hover:shadow-xl transition-shadow">
                 <div className="relative h-48">
                   <Image
-                    src="/--location-mapquery-.jpg"
+                    src={location.picUrl}
                     alt={`${location.name} map preview`}
                     fill
                     sizes="(min-width: 768px) 50vw, 100vw"
