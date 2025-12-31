@@ -6,6 +6,11 @@
   },
   "Nav": {
     "brand": "Dynamic Evangelism Church",
+    "language": "Language",
+    "locale": {
+      "en": "EN",
+      "zh": "中文"
+    },
     "home": "Home",
     "livestream": "Livestream",
     "about": "About",
