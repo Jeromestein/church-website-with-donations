@@ -25,7 +25,7 @@ export function ChurchFooter() {
           <div>
             <h4 className="font-semibold mb-4">地点</h4>
             <div className="space-y-2 text-sm opacity-80">
-              <p>60-20 Woodside Ave, Suite 205</p>
+              <p>60-20 Woodside Ave</p>
               <p>Woodside, NY 11377</p>
             </div>
           </div>

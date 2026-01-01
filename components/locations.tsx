@@ -10,7 +10,7 @@ export async function Locations() {
     {
       id: "ny",
       picUrl: "/church1.jpg",
-      address: "60-20 Woodside Ave, Suite 205, Woodside, NY 11377",
+      address: "60-20 Woodside Ave, Woodside, NY 11377",
     },
     {
       id: "ca",
