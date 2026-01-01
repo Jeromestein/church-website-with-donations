@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { MapPin, Phone } from "lucide-react"
+import { MapPin, Phone, Mail } from "lucide-react"
 import { getTranslations } from "next-intl/server"
 
 export async function Footer() {
@@ -29,11 +29,11 @@ export async function Footer() {
             <div className="space-y-3 text-sm text-background/80">
               <div className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 flex-shrink-0 mt-0.5" />
-                <span>60-20 Woodside Ave, Suite 205, Woodside, NY 11377</span>
+                <span>60-20 Woodside Ave, Woodside, NY 11377</span>
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4 flex-shrink-0" />
-                <span>(917) 200-4938</span>
+                <span>9492056660</span>
               </div>
             </div>
           </div>
@@ -44,6 +44,10 @@ export async function Footer() {
               <div className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 flex-shrink-0 mt-0.5" />
                 <span>72 Granite Path, Irvine, CA 92620</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <Mail className="w-4 h-4 flex-shrink-0" />
+                <span>tianpeiming8@gmail.com</span>
               </div>
             </div>
           </div>
