@@ -35,7 +35,7 @@ export async function Testimonials() {
             </div>
           </Card>
 
-          <div className="mt-12 grid md:grid-cols-3 gap-8">
+          <div className="mt-12 grid md:grid-cols-2 gap-8">
             {/*
             <Card className="p-6 text-center bg-card hover:shadow-lg transition-shadow">
               <div className="text-3xl font-bold text-primary mb-2">8+</div>
