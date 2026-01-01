@@ -8,7 +8,7 @@ export async function Ministries() {
     {
       id: "outreach",
       icon: Heart,
-      services: ["street", "winter"],
+      services: ["street", "winter", "team"],
     },
     {
       id: "immigrant",

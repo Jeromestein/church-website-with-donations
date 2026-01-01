@@ -49,16 +49,20 @@
       "outreach": {
         "title": "Community Outreach & Relief",
         "subtitle": "Community Outreach",
-        "tagline": "Love in Woodside, warmth in every heart",
-        "description": "Since we are in Woodside and Irvine, we are part of the community.",
+        "tagline": "Love in Flushing, warmth in every heart",
+        "description": "Based on Roosevelt Avenue in Flushing, New York, we serve unhoused neighbors and families in need with hot meals and winter clothing.",
         "services": {
           "street": {
             "name": "Street Outreach",
-            "detail": "Weekly at Roosevelt Ave subway station and nearby parks, we distribute hot meals, bread, and water."
+            "detail": "Weekly on Roosevelt Avenue in Flushing, we distribute hot meals, bread, and water to unhoused and low-income neighbors."
           },
           "winter": {
             "name": "Winter Coat Drive",
-            "detail": "As winter approaches, we collect and distribute warm coats so no neighbor has to shiver in the cold."
+            "detail": "As winter approaches, we collect and distribute coats and cold-weather clothing so no neighbor has to shiver in the cold."
+          },
+          "team": {
+            "name": "Serving Team",
+            "detail": "Volunteer members include Jin Xinquan, Li Tingming, Liu Xin, Liu Guidong, and others."
           }
         }
       },

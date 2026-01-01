@@ -49,16 +49,20 @@
       "outreach": {
         "title": "社区关怀与扶贫",
         "subtitle": "Community Outreach",
-        "tagline": "爱在 Woodside，暖在心间",
-        "description": "既然我们在 Woodside 和 Irvine，我们就是社区的一部分。",
+        "tagline": "爱在法拉盛，暖在心间",
+        "description": "我们的外展事工扎根纽约法拉盛罗斯福大道，为流浪汉与贫困人群分发热食与过冬衣物。",
         "services": {
           "street": {
             "name": "街头送暖",
-            "detail": "每周定期在 Roosevelt Ave 地铁站及周边公园，为有需要的人士分发热餐、面包与饮用水。"
+            "detail": "每周在法拉盛罗斯福大道开展关怀行动，向有需要的流浪者与贫困邻舍分发热餐、面包与饮用水。"
           },
           "winter": {
             "name": "冬衣捐赠",
-            "detail": "寒冬将至，我们收集并分发厚冬衣，确保没有一位邻舍需要在寒风中颤抖。"
+            "detail": "寒冬将至，我们收集并分发厚冬衣与御寒物资，确保没有一位邻舍需要在寒风中颤抖。"
+          },
+          "team": {
+            "name": "服事团队",
+            "detail": "参与活动的成员包括：金鑫全、李庭明、刘鑫、刘桂东等。"
           }
         }
       },
