@@ -52,16 +52,35 @@ export async function Ministries() {
                         {t(`items.${ministry.id}.description`)}
                       </p>
                       <div className="space-y-4">
-                        {ministry.services.map((service) => (
-                          <div key={service} className="pl-4 border-l-2 border-primary/30">
-                            <h4 className="font-semibold text-foreground mb-1">
-                              {t(`items.${ministry.id}.services.${service}.name`)}
-                            </h4>
-                            <p className="text-sm text-foreground/80 leading-relaxed">
-                              {t(`items.${ministry.id}.services.${service}.detail`)}
-                            </p>
-                          </div>
-                        ))}
+                        {ministry.services.map((service) => {
+                          const serviceKey = `items.${ministry.id}.services.${service}`
+                          const memberNames =
+                            service === "team"
+                              ? t(`${serviceKey}.members`)
+                                  .split("|")
+                                  .map((name) => name.trim())
+                                  .filter(Boolean)
+                              : []
+
+                          return (
+                            <div key={service} className="pl-4 border-l-2 border-primary/30">
+                              <h4 className="font-semibold text-foreground mb-1">{t(`${serviceKey}.name`)}</h4>
+                              <p className="text-sm text-foreground/80 leading-relaxed">{t(`${serviceKey}.detail`)}</p>
+                              {memberNames.length ? (
+                                <div className="mt-3 flex flex-wrap gap-2">
+                                  {memberNames.map((name) => (
+                                    <span
+                                      key={name}
+                                      className="inline-flex items-center rounded-full bg-primary/10 px-2.5 py-1 text-xs font-semibold text-primary"
+                                    >
+                                      {name}
+                                    </span>
+                                  ))}
+                                </div>
+                              ) : null}
+                            </div>
+                          )
+                        })}
                       </div>
                     </div>
                   </div>

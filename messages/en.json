@@ -42,6 +42,29 @@
     },
     "quote": "Here, we are a group of passionate immigrants, and our elders and co-workers have lived what you are living."
   },
+  "Elder": {
+    "sectionTitle": "Elder Profile",
+    "name": "Elder Peiming Tian",
+    "role": "Dynamic Evangelism Church (New York) | Dynamic Gospel Church (Irvine)",
+    "photoAlt": "Elder Peiming Tian portrait",
+    "profilePlaceholder": "Profile photo placeholder",
+    "paragraphs": {
+      "intro": "Elder Peiming Tian serves at Dynamic Evangelism Church (New York) and supports Dynamic Gospel Church (California) through the Irvine home fellowship and new immigrant welcome ministry. The church is devoted to serving Chinese and East Asian communities in the U.S., with a special heart for newcomers settling into a new land.",
+      "mission": "His desire is to walk with people from landing to rooting, so they may experience God's grace and renewed life in Christ."
+    },
+    "focusTitle": "Ministry Focus",
+    "focusItems": {
+      "worship": "Sunday worship and teaching",
+      "bible": "Bible study and prayer, fellowship-building",
+      "care": "Pastoral care and visitation, and developing co-workers",
+      "outreach": "Community outreach and practical care, including street outreach, winter coat drives, and new immigrant settling support (housing, school enrollment, driver's license guidance, language exchange)"
+    }
+  },
+  "BaptismCertificate": {
+    "title": "Certificate of Baptism",
+    "subtitle": "A milestone of faith and new life in Christ.",
+    "imageAlt": "Certificate of baptism"
+  },
   "Ministries": {
     "title": "Core Ministries",
     "subtitle": "Our Ministries",
@@ -62,7 +85,8 @@
           },
           "team": {
             "name": "Serving Team",
-            "detail": "Volunteer members include Jin Xinquan, Li Tingming, Liu Xin, Liu Guidong, and others."
+            "detail": "Volunteer members include:",
+            "members": "Xinquan Jin|Tingming Li|Xin Liu|Guidong Liu"
           }
         }
       },

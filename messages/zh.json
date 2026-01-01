@@ -42,6 +42,29 @@
     },
     "quote": "在这里，我们由一群热心的移民组成，长老与同工们都曾经历过您正在经历的一切。"
   },
+  "Elder": {
+    "sectionTitle": "长老简介",
+    "name": "田培明长老（Peiming Tian）",
+    "role": "Dynamic Evangelism Church（纽约堂） | Dynamic Gospel Church（加州尔湾）",
+    "photoAlt": "田培明长老照片",
+    "profilePlaceholder": "长老照片位置",
+    "paragraphs": {
+      "intro": "田培明长老（Peiming Tian）现于 Dynamic Evangelism Church（纽约堂）事奉，并参与支持 Dynamic Gospel Church（加州堂）在 Irvine 的家庭团契与新移民欢迎事工。教会致力于服事美国的华人及东亚群体，并特别关怀新移民在“落地阶段”的实际需要。",
+      "mission": "他盼望陪伴弟兄姊妹“从落地到扎根”，在美国的新生活中持续经历上帝的恩典与更新。"
+    },
+    "focusTitle": "服事重点",
+    "focusItems": {
+      "worship": "主日敬拜与信息分享",
+      "bible": "查经祷告与团契建造",
+      "care": "探访关怀与同工培育",
+      "outreach": "社区外展与关怀行动：社区街头关怀、冬衣捐赠、新移民安顿支持（住房、入学、驾照与语言交流等）"
+    }
+  },
+  "BaptismCertificate": {
+    "title": "受洗证书",
+    "subtitle": "信仰旅程的重要里程碑",
+    "imageAlt": "受洗证书"
+  },
   "Ministries": {
     "title": "核心事工",
     "subtitle": "Our Ministries",
@@ -62,7 +85,8 @@
           },
           "team": {
             "name": "服事团队",
-            "detail": "参与活动的成员包括：金鑫全、李庭明、刘鑫、刘桂东等。"
+            "detail": "参与活动的成员包括：",
+            "members": "金鑫全|李庭明|刘鑫|刘桂东"
           }
         }
       },
