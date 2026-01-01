@@ -36,10 +36,12 @@ export async function Testimonials() {
           </Card>
 
           <div className="mt-12 grid md:grid-cols-3 gap-8">
+            {/*
             <Card className="p-6 text-center bg-card hover:shadow-lg transition-shadow">
               <div className="text-3xl font-bold text-primary mb-2">8+</div>
               <p className="text-sm text-muted-foreground">{t("stats.years")}</p>
             </Card>
+            */}
             <Card className="p-6 text-center bg-card hover:shadow-lg transition-shadow">
               <div className="text-3xl font-bold text-primary mb-2">500+</div>
               <p className="text-sm text-muted-foreground">{t("stats.families")}</p>
