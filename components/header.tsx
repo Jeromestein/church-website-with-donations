@@ -22,12 +22,12 @@ export function Header() {
   const router = useRouter()
 
   const navItems = [
-    { key: "home", href: "#home" },
-    { key: "livestream", href: "#livestream" },
-    { key: "about", href: "#about" },
-    { key: "ministries", href: "#ministries" },
-    { key: "locations", href: "#locations" },
-    { key: "testimonials", href: "#testimonials" },
+    { key: "home", href: `/${locale}/#home` },
+    { key: "livestream", href: `/${locale}/#livestream` },
+    { key: "about", href: `/${locale}/about` },
+    { key: "ministries", href: `/${locale}/#ministries` },
+    { key: "locations", href: `/${locale}/#locations` },
+    { key: "testimonials", href: `/${locale}/#testimonials` },
   ]
 
   const localeOptions = [

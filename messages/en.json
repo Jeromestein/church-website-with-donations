@@ -60,6 +60,47 @@
       "outreach": "Community outreach and practical care, including street outreach, winter coat drives, and new immigrant settling support (housing, school enrollment, driver's license guidance, language exchange)"
     }
   },
+  "AboutPage": {
+    "title": "People & Stories",
+    "subtitle": "Faith journeys and everyday service in our church family.",
+    "peopleTitle": "Community Stories",
+    "peopleSubtitle": "Four brothers who faithfully join church life and serve together.",
+    "labels": {
+      "bio": "Bio",
+      "favoriteVerse": "Favorite Verse",
+      "testimony": "One-line testimony"
+    },
+    "people": {
+      "jin": {
+        "name": "金鑫全｜Xinquan Jin",
+        "cnBio": "金鑫全弟兄在 Dynamic Gospel Church / Dynamic Evangelism Church 稳定参加主日敬拜、查经与祷告，并积极融入纽约 Woodside 与加州 Irvine 的教会大家庭。他乐意在教会活动中配搭同工、参与接待与关怀，也愿意陪伴新朋友熟悉教会生活。盼望在这“家外之家”里，与众弟兄姊妹一同经历主的带领，从落地到扎根。",
+        "enBio": "Xinquan Jin faithfully joins Sunday worship, Bible study, and prayer gatherings at Dynamic Gospel/Evangelism Church, connecting with the church family in Woodside, NY and Irvine, CA. He is glad to serve during church events through hospitality and practical support, and he enjoys welcoming newcomers so they can feel at home. His desire is to grow together as a “Home Away From Home,” experiencing God’s guidance from landing to rooting.",
+        "verse": "Matthew 11:28",
+        "testimony": "In the midst of pressure, the Lord gives me rest—and teaches me to welcome others with gentleness."
+      },
+      "li": {
+        "name": "李庭明｜Tingming Li",
+        "cnBio": "李庭明弟兄持续参与教会主日敬拜与小组团契，重视灵修操练与彼此代祷，也愿意在活动中支持教会的组织与协调工作。他珍惜教会中真实的陪伴与属灵遮盖，常用耐心与倾听关心身边的弟兄姊妹。愿教会成为更多人的属灵港湾，在“家外之家”里同走天路，从落地到扎根。",
+        "enBio": "Tingming Li regularly participates in Sunday worship and small-group fellowship, valuing spiritual growth and prayer. He is also willing to support church events through coordination and practical help. Li treasures the genuine community and spiritual covering found in the church, often caring for others with patience and a listening heart. He hopes the church can be a spiritual harbor—a “Home Away From Home”—where many can journey together from landing to rooting.",
+        "verse": "Proverbs 3:5–6",
+        "testimony": "When I stopped relying only on myself, the Lord began to make the path clear—step by step."
+      },
+      "liuXin": {
+        "name": "刘鑫｜Xin Liu",
+        "cnBio": "刘鑫弟兄积极参与教会团契生活与各类活动，乐意与弟兄姊妹分享近况、交流信仰与生活见证。在聚会中，他重视真理扎根与彼此建造，也愿意配搭同工参与接待、沟通与现场支持。盼望通过教会的爱与真理，帮助更多新朋友融入群体，在“家外之家”里被坚固、被更新，从落地到扎根。",
+        "enBio": "Xin Liu actively engages in fellowship and church activities, enjoying sharing life updates and faith reflections with brothers and sisters. He values being grounded in God’s Word while building one another up through community. Liu is also glad to co-serve during events—helping with hospitality, communication, and on-site support. He hopes more newcomers can find strength and renewal in this “Home Away From Home,” growing from landing to rooting.",
+        "verse": "Psalm 23:1",
+        "testimony": "The Lord is my Shepherd—my security no longer depends on circumstances."
+      },
+      "liuGuidong": {
+        "name": "刘桂东｜Guidong Liu",
+        "cnBio": "刘桂东弟兄稳定参与主日敬拜、查经与祷告，并关心教会对社区与新移民的关怀事工。他愿意以实际行动参与活动支持、志愿服事与外展配搭，在点滴细节中见证基督的爱。他相信教会不只是聚会地点，更是属灵家庭与避风港；愿在纽约 Woodside 与加州 Irvine 的弟兄姊妹同行中，一同被主带领，从落地到扎根。",
+        "enBio": "Guidong Liu consistently attends Sunday worship, Bible study, and prayer, with a heart for caring ministry toward the community and newcomers. He is willing to serve through volunteering, event support, and outreach partnership, reflecting Christ’s love through practical actions. He believes the church is more than a meeting place—it is a spiritual family and a safe harbor. He looks forward to walking with believers in Woodside, NY and Irvine, CA, growing from landing to rooting.",
+        "verse": "Micah 6:8",
+        "testimony": "Faith isn’t a slogan—it’s choosing to walk humbly, love mercy, and do what’s right each day."
+      }
+    }
+  },
   "BaptismCertificate": {
     "title": "Certificate of Baptism",
     "subtitle": "A milestone of faith and new life in Christ.",
