@@ -107,7 +107,7 @@ export function DonationSection() {
             <p>
               银行转账信息
               <br />
-              账户名称：Dynamic Evangelism Church
+              账户名称：Dynamic Gospel Church
               <br />
               联系我们获取详细信息
             </p>

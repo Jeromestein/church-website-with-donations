@@ -1,11 +1,11 @@
 {
   "Metadata": {
-    "title": "Dynamic Evangelism Church | Home Away From Home",
-    "description": "Dynamic Evangelism Church (NY) and Dynamic Gospel Church (CA) - a warm spiritual home for Chinese and East Asian communities in the U.S.",
+    "title": "Dynamic Gospel Church | Home Away From Home",
+    "description": "Dynamic Gospel Church (NY) and Dynamic Gospel Church (CA) - a warm spiritual home for Chinese and East Asian communities in the U.S.",
     "appleTitle": "DYN EVG CH"
   },
   "Nav": {
-    "brand": "Dynamic Evangelism Church",
+    "brand": "Dynamic Gospel Church",
     "language": "Language",
     "locale": {
       "en": "EN",
@@ -21,7 +21,7 @@
   "Hero": {
     "title": "Home Away From Home",
     "subtitle": "Finding Your Spiritual Home Away From Home",
-    "body": "Whether you just arrived or have lived here for years, Dynamic Evangelism Church is your harbor. We walk with you in Queens, New York and Irvine, California.",
+    "body": "Whether you just arrived or have lived here for years, Dynamic Gospel Church is your harbor. We walk with you in Queens, New York and Irvine, California.",
     "ctaPrimary": "Join a Service",
     "ctaSecondary": "New Immigrant Service Center",
     "imageAlt": "Congregation worshiping in a modern church"
@@ -37,7 +37,7 @@
     "title": "Not Just a Church, But a Family",
     "subtitle": "A place to belong, grow, and be cared for",
     "paragraphs": {
-      "one": "Dynamic Evangelism Church (New York) and Dynamic Gospel Church (California) are devoted to serving Chinese and East Asian communities in the U.S. We understand the bittersweet journey of immigration—from language barriers to cultural shock, from identity anxiety to everyday pressure.",
+      "one": "Dynamic Gospel Church (New York) and Dynamic Gospel Church (California) are devoted to serving Chinese and East Asian communities in the U.S. We understand the bittersweet journey of immigration—from language barriers to cultural shock, from identity anxiety to everyday pressure.",
       "two": "Here, we share not only the truth of the Gospel, but also the burdens of life. We are a community of passionate immigrants, and our elders and co-workers have walked the same road you are on. We gather to support one another and warm every wandering soul with the love of Christ."
     },
     "quote": "Here, we are a group of passionate immigrants, and our elders and co-workers have lived what you are living."
@@ -45,11 +45,11 @@
   "Elder": {
     "sectionTitle": "Elder Profile",
     "name": "Elder Peiming Tian",
-    "role": "Dynamic Evangelism Church (New York) | Dynamic Gospel Church (Irvine)",
+    "role": "Dynamic Gospel Church (New York) | Dynamic Gospel Church (Irvine)",
     "photoAlt": "Elder Peiming Tian portrait",
     "profilePlaceholder": "Profile photo placeholder",
     "paragraphs": {
-      "intro": "Elder Peiming Tian serves at Dynamic Evangelism Church (New York) and supports Dynamic Gospel Church (California) through the Irvine home fellowship and new immigrant welcome ministry. The church is devoted to serving Chinese and East Asian communities in the U.S., with a special heart for newcomers settling into a new land.",
+      "intro": "Elder Peiming Tian serves at Dynamic Gospel Church (New York) and supports Dynamic Gospel Church (California) through the Irvine home fellowship and new immigrant welcome ministry. The church is devoted to serving Chinese and East Asian communities in the U.S., with a special heart for newcomers settling into a new land.",
       "mission": "His desire is to walk with people from landing to rooting, so they may experience God's grace and renewed life in Christ."
     },
     "focusTitle": "Ministry Focus",
@@ -73,8 +73,8 @@
     "people": {
       "jin": {
         "name": "金鑫全｜Xinquan Jin",
-        "cnBio": "金鑫全弟兄在 Dynamic Gospel Church / Dynamic Evangelism Church 稳定参加主日敬拜、查经与祷告，并积极融入纽约 Woodside 与加州 Irvine 的教会大家庭。他乐意在教会活动中配搭同工、参与接待与关怀，也愿意陪伴新朋友熟悉教会生活。盼望在这“家外之家”里，与众弟兄姊妹一同经历主的带领，从落地到扎根。",
-        "enBio": "Xinquan Jin faithfully joins Sunday worship, Bible study, and prayer gatherings at Dynamic Gospel/Evangelism Church, connecting with the church family in Woodside, NY and Irvine, CA. He is glad to serve during church events through hospitality and practical support, and he enjoys welcoming newcomers so they can feel at home. His desire is to grow together as a “Home Away From Home,” experiencing God’s guidance from landing to rooting.",
+        "cnBio": "金鑫全弟兄在 Dynamic Gospel Church / Dynamic Gospel Church 稳定参加主日敬拜、查经与祷告，并积极融入纽约 Woodside 与加州 Irvine 的教会大家庭。他乐意在教会活动中配搭同工、参与接待与关怀，也愿意陪伴新朋友熟悉教会生活。盼望在这“家外之家”里，与众弟兄姊妹一同经历主的带领，从落地到扎根。",
+        "enBio": "Xinquan Jin faithfully joins Sunday worship, Bible study, and prayer gatherings at Dynamic Gospel/Gospel Church, connecting with the church family in Woodside, NY and Irvine, CA. He is glad to serve during church events through hospitality and practical support, and he enjoys welcoming newcomers so they can feel at home. His desire is to grow together as a “Home Away From Home,” experiencing God’s guidance from landing to rooting.",
         "verse": "Matthew 11:28",
         "testimony": "In the midst of pressure, the Lord gives me rest—and teaches me to welcome others with gentleness."
       },
@@ -205,7 +205,7 @@
     }
   },
   "Footer": {
-    "brand": "Dynamic Evangelism Church",
+    "brand": "Dynamic Gospel Church",
     "description": "Home away from home. We serve Chinese and East Asian communities in the U.S., warming every wandering soul with the love of Christ.",
     "ny": {
       "title": "New York Campus"
@@ -213,7 +213,7 @@
     "ca": {
       "title": "California Campus"
     },
-    "copyright": "© {year} Dynamic Evangelism Church. All rights reserved.",
+    "copyright": "© {year} Dynamic Gospel Church. All rights reserved.",
     "tagline": "Serving the Community with Love"
   }
 }

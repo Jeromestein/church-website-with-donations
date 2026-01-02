@@ -51,7 +51,7 @@ export function ChurchFooter() {
 
         <div className="border-t border-background/20 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm opacity-80">
-            © {new Date().getFullYear()} Dynamic Evangelism Church. All rights reserved.
+            © {new Date().getFullYear()} Dynamic Gospel Church. All rights reserved.
           </p>
 
           <div className="flex gap-4">

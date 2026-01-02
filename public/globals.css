@@ -4,7 +4,7 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* New color theme inspired by Dynamic Evangelism Church with purple/lavender primary and orange accents */
+  /* New color theme inspired by Dynamic Gospel Church with purple/lavender primary and orange accents */
   --background: oklch(1 0 0);
   --foreground: oklch(0.25 0 0);
   --card: oklch(1 0 0);
